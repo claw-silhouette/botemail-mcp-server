@@ -1,6 +1,25 @@
 # BotEmail.ai MCP Server - Usage Examples
 
-## Example 1: Create a Bot Email Account
+## Example 1a: Create a Bot Email Account (Random Username)
+
+**You say to Claude:**
+> "I need a quick throwaway email for testing."
+
+**Claude uses:**
+```javascript
+use_mcp_tool("botemail", "create_bot_email", {})
+// or: use_mcp_tool("botemail", "create_bot_email")
+```
+
+**Result:**
+```json
+{
+  "email": "9423924_bot@botemail.ai",
+  "apiKey": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+}
+```
+
+## Example 1b: Create a Bot Email Account (Custom Username)
 
 **You say to Claude:**
 > "I need a new email account for my automation bot. Call it 'automation-helper'."
@@ -159,9 +178,10 @@ const emails = use_mcp_tool("botemail", "get_emails", {
 ## Tips for Best Results
 
 1. **Store API Keys Securely** - Don't hardcode them in your prompts
-2. **Use Descriptive Usernames** - Makes it easier to remember what each bot is for
-3. **Check Regularly** - Emails are stored for 6 months, but checking regularly keeps things fresh
-4. **Webhooks for Real-Time** - Set up webhooks if you need instant notifications
+2. **Use Descriptive Usernames** - Makes it easier to remember what each bot is for (or use random for quick tests)
+3. **Random for Testing** - Omit username parameter for instant throwaway addresses
+4. **Check Regularly** - Emails are stored for 6 months, but checking regularly keeps things fresh
+5. **Webhooks for Real-Time** - Set up webhooks if you need instant notifications
 
 ---
 

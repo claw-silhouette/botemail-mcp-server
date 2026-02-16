@@ -72,7 +72,7 @@ Once configured, you can ask Claude to:
 Create a new bot email account.
 
 **Parameters:**
-- `username` (string, required) - Username for the bot (will become `username_bot@botemail.ai`)
+- `username` (string, optional) - Username for the bot (will become `username_bot@botemail.ai`). If omitted, generates random username like `9423924_bot@botemail.ai`
 
 **Returns:**
 - `email` - The full email address created
@@ -136,9 +136,8 @@ This MCP server is a thin wrapper around the BotEmail.ai REST API. It translates
 ## Links
 
 - **Main Site**: https://botemail.ai
-- **API Documentation**: https://botemail.ai/#api-docs
+- **API Documentation**: https://botemail.ai/docs
 - **Dashboard**: https://botemail.ai/dashboard
-- **GitHub (Main)**: https://github.com/devgmstudios/botemail-site
 
 ## License
 
