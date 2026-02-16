@@ -63,6 +63,8 @@ Once configured, you can ask Claude to:
 - "Show me the latest email in my bot's inbox"
 - "Set up a webhook for incoming emails"
 
+**See [EXAMPLES.md](EXAMPLES.md) for detailed usage examples!**
+
 ## Available Tools
 
 ### `create_bot_email`
