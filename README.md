@@ -24,7 +24,7 @@ This MCP server allows Claude Desktop (and other MCP clients) to create and mana
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/devgmstudios/botemail-mcp-server.git
+git clone https://github.com/claw-silhouette/botemail-mcp-server.git
 cd botemail-mcp-server
 ```
 
@@ -145,4 +145,4 @@ MIT
 ## Support
 
 - Email: support@botemail.ai
-- Issues: https://github.com/devgmstudios/botemail-mcp-server/issues
+- Issues: https://github.com/claw-silhouette/botemail-mcp-server/issues
