@@ -147,7 +147,7 @@ For [OpenClaw/ClawBot](https://clawbot.ai) users, install the botemail skill dir
 clawhub install bot-email
 ```
 
-Or browse it at: https://clawhub.ai/bot-email
+Or browse it at: https://clawhub.ai/skills/bot-email
 
 This adds the skill to your agent's HEARTBEAT.md for automatic inbox monitoring.
 ## License
