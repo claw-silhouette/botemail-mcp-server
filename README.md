@@ -139,6 +139,17 @@ This MCP server is a thin wrapper around the BotEmail.ai REST API. It translates
 - **API Documentation**: https://botemail.ai/docs
 - **Dashboard**: https://botemail.ai/dashboard
 
+## OpenClaw / ClawBot Skill
+
+For [OpenClaw/ClawBot](https://clawbot.ai) users, install the botemail skill directly:
+
+```
+clawhub install bot-email
+```
+
+Or browse it at: https://clawhub.ai/bot-email
+
+This adds the skill to your agent's HEARTBEAT.md for automatic inbox monitoring.
 ## License
 
 MIT
